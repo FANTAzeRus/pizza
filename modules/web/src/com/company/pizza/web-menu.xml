@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menu-config xmlns="http://schemas.haulmont.com/cuba/menu.xsd">
+    <menu id="application-pizza" insertBefore="administration" caption="mainMsg://menu_config.application-pizza">
+        <item screen="pizza_Topings.browse" caption="mainMsg://menu_config.pizza_Topings.browse"/>
+        <item screen="pizza_Pizza.browse" caption="mainMsg://menu_config.pizza_Pizza.browse"/>
+        <item screen="pizza_Order.browse" caption="mainMsg://menu_config.pizza_Order.browse"/>
+    </menu>
+</menu-config>

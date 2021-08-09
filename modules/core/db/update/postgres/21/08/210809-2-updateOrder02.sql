@@ -1,0 +1,2 @@
+alter table PIZZA_ORDER add constraint FK_PIZZA_ORDER_ON_ORDER_ITEM foreign key (ORDER_ITEM_ID) references PIZZA_ORDER_ITEM(ID);
+create index IDX_PIZZA_ORDER_ON_ORDER_ITEM on PIZZA_ORDER (ORDER_ITEM_ID);
